@@ -8,9 +8,9 @@ from email.mime.text import MIMEText
 
 
 def send_msg(Subject,msg):
-    _user = "772575249@qq.com"
-    _pwd  = "xbjdncgiajdgbbeh"
-    _to   = "15008487521@163.com"
+    _user = "youEmail"
+    _pwd  = "passwd"
+    _to   = "to_email"
 
     msg = MIMEText(msg)
     msg["Subject"] = Subject
